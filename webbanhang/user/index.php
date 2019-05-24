@@ -1,0 +1,1 @@
+<?php session_start(); define("_securitycharacter",true); if (!isset($_SESSION['username'])){header('location:login.php');}else header("location:CMS.php");?>

@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^([^/]+)\.htm$ /index.php?act=$1 [L]
